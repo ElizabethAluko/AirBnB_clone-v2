@@ -14,6 +14,8 @@ app = Flask(__name__)
 @app.route('/', methods=['GET'], strict_slashes=False)
 def hello():
     '''Returns a simple greeting'''
+
+n3 -m web_flask.6-number_odd_or_even
     return "Hello HBNB!"
 
 
