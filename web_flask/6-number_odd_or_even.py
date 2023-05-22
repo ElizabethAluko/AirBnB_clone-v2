@@ -21,7 +21,7 @@ n3 -m web_flask.6-number_odd_or_even
 
 @app.route('/hbnb', methods=['GET'], strict_slashes=False)
 
-de_ hbnb():
+def hbnb():
     """returns a single line"""
     return "HBNB"
 

@@ -19,7 +19,7 @@ def hello():
 
 @app.route('/hbnb', methods=['GET'], strict_slashes=False)
 
-de_ hbnb():
+def hbnb():
     """returns a single line"""
     return "HBNB"
 
