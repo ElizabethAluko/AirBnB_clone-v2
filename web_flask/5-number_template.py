@@ -4,7 +4,7 @@ Create a route to the home displaying `Hello HBNB`
 """
 
 
-from flask import Flask
+from flask import Flask render_template
 
 
 # initialize the application using the variable `app`
