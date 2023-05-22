@@ -18,7 +18,6 @@ def hello():
 
 
 @app.route('/hbnb', methods=['GET'], strict_slashes=False)
-
 def hbnb():
     """returns a single line"""
     return "HBNB"

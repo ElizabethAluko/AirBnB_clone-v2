@@ -14,13 +14,10 @@ app = Flask(__name__)
 @app.route('/', methods=['GET'], strict_slashes=False)
 def hello():
     '''Returns a simple greeting'''
-
-n3 -m web_flask.6-number_odd_or_even
     return "Hello HBNB!"
 
 
 @app.route('/hbnb', methods=['GET'], strict_slashes=False)
-
 def hbnb():
     """returns a single line"""
     return "HBNB"
